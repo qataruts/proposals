@@ -25,4 +25,4 @@ git add -A && git commit -m "update <name>" && git push   # publishes the web ve
 
 | name    | live URL                                            | email/PDF outputs                          |
 |---------|-----------------------------------------------------|--------------------------------------------|
-| toronto | https://qataruts.github.io/proposals/toronto-k7x2/  | v-study/proposals/TORONTO/                 |
+| mesaieed | https://qataruts.github.io/proposals/mesaieed-factory-k7x2/ | v-study/proposals/TORONTO/ (UTS-*)   |

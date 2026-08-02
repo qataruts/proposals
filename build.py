@@ -10,8 +10,8 @@ One run regenerates every output from it:
   3. PDFs          ->  Arabic + English exports (headless Chrome)
 
 Usage:
-  python3 build.py toronto            # build everything for 'toronto'
-  python3 build.py toronto --no-pdf   # skip PDF export
+  python3 build.py mesaieed           # build everything for 'mesaieed'
+  python3 build.py mesaieed --no-pdf  # skip PDF export
   python3 build.py --all              # build every proposal
 
 After building, publish with:  git add -A && git commit -m "..." && git push
@@ -22,11 +22,11 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 PROPOSALS = {
-    "toronto": {
-        "slug": "toronto-k7x2",  # published folder -> https://qataruts.github.io/proposals/toronto-k7x2/
-        "email_out": "/Volumes/data/new-projects/v-study/proposals/TORONTO/Toronto-Petroleum-Proposal.html",
-        "pdf_ar":    "/Volumes/data/new-projects/v-study/proposals/TORONTO/Toronto-Petroleum-Proposal-AR.pdf",
-        "pdf_en":    "/Volumes/data/new-projects/v-study/proposals/TORONTO/Toronto-Petroleum-Proposal-EN.pdf",
+    "mesaieed": {
+        "slug": "mesaieed-factory-k7x2",  # -> https://qataruts.github.io/proposals/mesaieed-factory-k7x2/
+        "email_out": "/Volumes/data/new-projects/v-study/proposals/TORONTO/UTS-Mesaieed-Factory-Proposal.html",
+        "pdf_ar":    "/Volumes/data/new-projects/v-study/proposals/TORONTO/UTS-Mesaieed-Factory-Proposal-AR.pdf",
+        "pdf_en":    "/Volumes/data/new-projects/v-study/proposals/TORONTO/UTS-Mesaieed-Factory-Proposal-EN.pdf",
     },
 }
 
